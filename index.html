@@ -17,20 +17,11 @@ content { width: 500px; padding: 5px; }
 content {
 position: relative; top: -550px; height: 600px; width: 800px; overflow-x: hidden; overflow-y: scroll; }
     
-body, html {
-  height: 100%;
-}
-
-.bg {
-  /* The image used */
-  background-image: url("img_girl.jpg");
-
-  /* Full height */
-  height: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
+html { 
+  background: url(images/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
 </style>
 
